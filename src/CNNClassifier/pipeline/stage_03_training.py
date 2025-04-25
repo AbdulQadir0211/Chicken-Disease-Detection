@@ -2,6 +2,9 @@ from CNNClassifier.config.configuration import ConfigurationManager
 from CNNClassifier.components.prepare_callbacks import PrepareCallback
 from CNNClassifier.components.training import Training
 from CNNClassifier import logger
+import tensorflow as tf
+tf.config.run_functions_eagerly(True)
+
 
 
 
